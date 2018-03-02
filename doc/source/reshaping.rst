@@ -14,6 +14,24 @@
 Reshaping and Pivot Tables
 **************************
 
+A pivot table is a data summarization tool that aggregates a table of data by 
+one or more keys and arranges the data in a rectangle with some of the group 
+keys along the rows and some along the columns. Pandas provides a number 
+of options for reshaping data, including groupby, pivot, pivot_table, and 
+crosstab.
+
+When you are working with pivot table you must ensure that you understand your 
+data an what questions you are trying to answer.
+
+Different choices for reshaping data
+------------------------------------
+
+- DataFrame.GroupBy and DataFrame.unstack  
+- Pivot is used for pivoting without aggregation.
+- Pivot_table is used for aggregation.
+- Cross-tabulation (crosstab) is a special case of a pivot table that computes
+group frequencies.
+
 Reshaping by pivoting DataFrame objects
 ---------------------------------------
 
